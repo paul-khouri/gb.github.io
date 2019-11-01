@@ -1,0 +1,158 @@
+
+/* ----- Body Colouring ----- */
+body{
+    background-color: rgb(237,234,229);
+}
+
+/* ----- NavBar ----- */
+.navbar{
+    background-color: rgb(37,40,42);
+}
+.navbar-brand{
+    color:rgb(237,234,229);
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+.navbar a:hover{
+    color: rgb(156, 156, 156);
+}
+    /* ----- hamburger toggle ------*/
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: rgb(237,234,229);}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;}
+
+.navbar-nav li a:link{
+   background-color: rgb(37,40,42);
+    color: rgb(237,234,229);
+    font-family: 'Comfortaa', cursive;
+}
+.navbar-nav li a:visited{
+    background-color: rgb(37,40,42);
+    color: rgb(237,234,229);
+}
+.navbar-nav li a:hover{
+    color: rgb(156, 156, 156);
+}
+
+/* ----- Centered text ------ */
+.centeredText{ 
+    position: absolute;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    font-family: 'Rubik Mono One', sans-serif;
+  }
+
+/* ----- Container holding the image and the text ----- */
+.imageBox {
+    width: 100%;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+.col-md-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* ----- Headings ----- */
+h1{
+    color:rgb(53, 53, 53);
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+h3{
+    color:rgb(53, 53, 53);
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+
+}
+h4{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+}
+/* ----- Para ----- */
+p{
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+/*----- line ----- */
+hr{
+    color:rgb(53, 53, 53);
+    height: 10px;  
+}
+/* ----- link ----- */
+a{
+    color:rgb(53, 53, 53); 
+}
+/* ----- list ----- */
+ul{
+    color:rgb(53, 53, 53);
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* ----- stakeholder image ------ */
+.stakeholder {
+    align-content:right;
+}
+
+/* ----- Slide show -----*/ 
+.carousel{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----- Travel Boxes -----*/
+.btn-primary{
+    background-color: rgb(53, 53, 53);
+    border: 0px;
+    color: rgb(224, 224, 224);
+    
+}
+.btn-primary a:hover{
+    color: rgb(156, 156, 156);
+}
+
+.cardhome{
+    border: 0px;
+}
+
+.img-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+    /* For when the screen enlarges to a certain width */
+@media screen and (min-width:746px){
+    /* Centered text */
+    .centeredText{
+        font-size: 5em;
+    }
+
+    /* Container holding the image and the text */
+    .imageBox {
+        width: 100%;
+    }
+
+    .tripleImage{
+        width:75%;
+        margin:auto;
+        background-color: aquamarine;
+    }
+}
